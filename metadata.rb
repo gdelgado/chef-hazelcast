@@ -9,9 +9,9 @@ version          "0.1.0"
 recipe "hazelcast","Downloads, installs and configures standalone node"
 
 #TODO: include java depends
-%w{ java ark }.each do |cb|
-  depends cb
-end
+# %w{ java ark }.each do |cb|
+#  depends cb
+# end
 
 %w{ ubuntu debian centos redhat amazon scientific oracle fedora }.each do |os|
   supports os
