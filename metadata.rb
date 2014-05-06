@@ -1,3 +1,4 @@
+name "hazelcast"
 maintainer       "moratilla.com"
 maintainer_email "jorge@moratilla.com"
 license          "All rights reserved"
