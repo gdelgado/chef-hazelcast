@@ -13,7 +13,6 @@ recipe "hazelcast","Downloads, installs and configures standalone node"
 #  depends cb
 # end
 
- depends "java"
 
 %w{ ubuntu debian centos redhat amazon scientific oracle fedora }.each do |os|
   supports os

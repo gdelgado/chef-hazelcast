@@ -11,7 +11,7 @@ hazelcast_basedir = node['hazelcast']['base_dir']
 hazelcast_currentdir = node['hazelcast']['current_dir']
 hazelcast_user = node['hazelcast']['user']
 
-include_recipe 'java::openjdk'
+# include_recipe 'java::openjdk'
 
 user hazelcast_user do
   system true
