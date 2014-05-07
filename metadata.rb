@@ -1,6 +1,7 @@
 name "hazelcast"
 maintainer       "moratilla.com"
 maintainer_email "jorge@moratilla.com"
+modifier_emai    "gdelgado@museami.com"
 license          "All rights reserved"
 description      "Installs/Configures hazelcast"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
@@ -12,6 +13,8 @@ recipe "hazelcast","Downloads, installs and configures standalone node"
 # %w{ java ark }.each do |cb|
 #  depends cb
 # end
+
+ depends "java"
 
 %w{ ubuntu debian centos redhat amazon scientific oracle fedora }.each do |os|
   supports os
