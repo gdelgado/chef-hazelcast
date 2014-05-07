@@ -1,7 +1,6 @@
 name "hazelcast"
 maintainer       "moratilla.com"
 maintainer_email "jorge@moratilla.com"
-modifier_emai    "gdelgado@museami.com"
 license          "All rights reserved"
 description      "Installs/Configures hazelcast"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
